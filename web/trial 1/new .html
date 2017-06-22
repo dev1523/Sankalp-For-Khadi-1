@@ -1,0 +1,39 @@
+<html>
+<head><title>dhkgd</title>
+<style>
+.left {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 50vw;
+	background-repeat:no-repeat;
+	overflow: hidden;
+	}
+</style>
+</head>
+<body>
+<div class="left" style="background-image:url('1.jpg')"; >
+</div>
+<div class="left" style="background-image:url('2.jpg')";>
+</div>
+<div class="left" style="background-image:url('3.jpg')";>
+</div>
+<script>
+var index= 0;
+carousel();
+function carousel(){
+	var i;
+	var x= document.getElementsByClassName("left");
+	for(i=0; i<x.length; i++){
+	x[i].style.display="none";
+	}
+	index++;
+	if(index > x.length) { index =1 }
+	x[index-1].style.display="block";
+	setTimeout(carousel, 5000);
+	}
+</script>
+	
+</body>
+	</html>

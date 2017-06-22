@@ -1,0 +1,417 @@
+<DOCTYPE! html>
+<head>
+<title>sankalp for khadi</title>
+<link rel="shortcut icon" type="image/png" href="7.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bubbler+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+</head>
+<style>
+
+.left {
+	position: absolute;
+	top: 0;
+	left: 0px;
+	height: 100vh;
+	width: 50vw;
+	
+	background-size:cover;
+	overflow: hidden;
+	z-index:1;
+	
+	}
+.right {
+	position:absolute;
+	top: 0;
+	right:0px;
+	float: right;
+	height: 100vh;
+	width: 50vw;
+	background-repeat:no-repeat;
+	background-size:cover;
+	overflow:hidden;
+	z-index:1;
+	
+	}
+  * {
+      outline: none;
+	 
+    }
+	.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3.0s;
+  animation-name: fade;
+  animation-duration: 3.0s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.links{position:relative;
+z-index: 3;
+margin:  auto;
+margin-top:25%;
+
+width:500px;
+height:200px;
+
+
+}
+.links p{
+text-align:center;
+color:white;
+}
+
+
+a.main-link:link,visited  {
+    position: absolute;
+    background-color:grey;
+  font-family: 'Bubbler One', sans-serif;	
+    padding: 10px 80px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    margin-left:31%; 
+	font-size:18px;
+	opacity:0.7;
+	color:white;
+	border-radius:8px;
+}
+a.main-link:hover, a.main-link:active {
+position:relative;
+    font-family: 'Bubbler One', sans-serif;
+    background-color: black;
+	border-radius:8px;
+	opacity:0.8;
+	color:white;
+	 padding: 10px 80px;
+	
+}
+p.follow{font-family:'Lobster Two', cursive;
+
+font-size:20px;
+color:black;
+}
+p.share{font-family:'Lobster Two', cursive;
+font-size:20px;
+color:black;
+}
+p{font-family: 'Great Vibes', cursive;
+font-size:40px;
+color:black;
+}
+.left-corner{
+z-index:3;
+position:fixed;
+text-align:center;
+height:10vh;
+width:30vh;
+	
+	left:0px;
+	top:10px;
+}
+.right-corner{
+position:fixed;
+
+height:10vh;
+z-index:3;
+width:30vh;
+text-align:center;
+	
+	right:0px;
+	top:10px;
+}
+.right-corner p{
+font-size:20px;
+color:white;
+}
+.left-corner p{
+color:white;
+font-size:25px;
+}
+.bottom-share{
+position:fixed;
+left:0;
+bottom:0;
+height:25%;
+width:100%;
+border:1px solid black;
+z-index:3;
+display:none;
+background-color:white;
+}
+
+.bottom-follow{
+position:fixed;
+display:none;
+left:0;
+bottom:0;
+height:25%;
+width:100%;
+border:1px solid black;
+z-index:3;
+background-color:white;
+}
+a.follow{
+text-decoration:none;
+color:white;}
+a.share{
+text-decoration:none;
+color:white;}
+.cross{
+opacity:0.7;
+position:absolute;
+right:0;
+top:13px;
+left:97%;
+height:32px;
+width:32px;
+z-index:3;
+
+ }
+.facebook{
+top:50%;
+position:absolute;
+left:49%;
+
+height:32px;
+width:32px;
+float:left;
+}
+.twitter{
+top:50%;
+position:absolute;
+left:41%;
+
+float:right;
+height:32px;
+width:32px;
+}
+
+.instagram{
+top:50%;
+position:absolute;
+left:45%;
+
+float:right;
+height:32px;
+width:32px;}
+
+.pinterest{
+position:absolute;
+left:53%;
+top:50%;
+float:right;
+height:32px;
+width:32px;
+}
+.mail{
+position:absolute;
+left:53%;
+top:50%;
+height:32px;
+width:32px;
+float:right;
+}
+.shtext{
+
+width:35%;
+height:40%;
+margin:0 auto;
+text-align:center;
+
+}
+p.share-text{
+font-size:30px;
+}
+
+.goog{
+position:absolute;
+top:50%;
+left: 57%;
+float:right;
+height:32px;
+width:32px;
+
+}
+img:hover{
+height:40px;
+width:40px;}
+img.cross1:hover{
+height:25px;
+width:25px;}
+img.cross2:hover{
+height:25px;
+width:25px;}
+
+
+</style>
+<body>
+
+
+<div class="links" style="align:center">
+<p class="p">this is dummy text 1</p>
+<p class="p">this is dummy text 2</p>
+<p class="p">this is dummy text 3</p>
+<a href="link.html" class="main-link">link1</a>
+</div>
+<div class="left" style="background-image:url('1.jpg')" >
+</div>
+<div class="left" style="background-image:url('2.jpg')">
+</div>
+<div class="left" style="background-image:url('3.jpg')">
+</div>
+<div class="right" style="background-image:url('4.jpg')" >
+</div>
+<div class="right" style="background-image:url('5.jpg')">
+</div>
+<div class="right" style="background-image:url('6.jpg')">
+</div>
+<div class="left-corner"><p><b><a href="#" class="follow" id="follow">follow us</a></b></p></div>
+<div class="right-corner">
+<p><b><a href="#" class="share" id="share">Share With Your Friends</a></b></p></div>
+<div class="bottom-share" id="bottom-share">
+	<div class="shtext">
+		<p class="share-text">Share With Your Friends</p>
+	</div>
+	<div class="cross">
+	<a href="#" id="cross1">
+	<img src="cross.png" height="25px" width="25px" class="cross1" >
+	</a>
+	</div>
+	<div class="facebook">
+	<a href="https://www.facebook.com/sharer/sharer.php?app_id=113869198637480&kid_directed_site=0&sdk=joey&u=https%3A%2F%2Fwww.facebook.com%2Fsankalpforkhadi%2F&display=popup&ref=plugin&src=share_button" target="_blank" id="facebook">
+	<img src="fb.png" height="32px" width="32px">
+	</a>
+	</div>
+	<div class="instagram">
+	<a href="https://twitter.com/share?
+	url=https%3A%2F%2Fsankalpforkhadi.com%2F&
+	related=twitterapi%2Ctwitter&
+	hashtags=SankalpForKhadi%2CITCF&
+	text=I%20Take%20SankalpForKhadi" target="_blank">
+
+	<img src="twitter.png" height="32px" width="32px">
+	</a>
+	</div>
+	<div class="mail">
+	<a href="#" id="mail">
+	<img src="gmail.png" height="32px" width="32px">
+	</a>
+	</div>
+</div>
+
+<div class="bottom-follow" id="bottom-follow">
+<div class="shtext">
+	<p class="share-text">follow us on</p>
+	</div>
+	<div class="cross">
+	<a href="#" id="cross2" >
+	<img src="cross.png" height="25px" width="25px" class="cross2">
+	</a>
+	</div>
+	<div class="facebook">
+	<a href="https://www.facebook.com/sankalpforkhadi/" target="_blank" id="facebook">
+	<img src="fb.png" height="32px" width="32px">
+	</a>
+	</div>
+	<div class="instagram">
+	<a href="https://www.instagram.com/sankalpforkhadiofficial/?hl=en"  target="_blank" id="instagram" >
+	<img src="insta.png" height="32px" width="32px">
+	</a>
+	</div>
+	<div class="twitter">
+	<a href="https://twitter.com/ForKhadi" target="_blank" id="twitter">
+	<img src="twitter.png" height="32px" width="32px">
+	</a>
+	</div>
+	<div class="pinterest">
+	<a href="https://in.pinterest.com/sankalpforkhadi/" target="_blank"	id="pinterest">
+	<img src="pinterest.png" height="32px" width="32px">
+	</a>
+	</div>
+	<div class="goog">
+	<a href="#" id="google+">
+	<img src="google+.png" height="32px" width="32px">
+	</a>
+	</div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+var index= 0;
+carousel();
+function carousel(){
+	var i;
+	var x= document.getElementsByClassName("left");
+	for(i=0; i<x.length; i++){
+	x[i].style.display="none";
+	}
+	index++;
+	if(index > x.length) { index =1 }
+	x[index-1].style.display="block";
+	setTimeout(carousel, 5000);
+	}
+	var index2= 0;
+	carousel2();
+	function carousel2(){
+	var j;
+	var y=document.getElementsByClassName("right");
+	for(j=0; j<y.length; j++ )
+	{
+	 y[j].style.display="none";
+	}
+	index2++;
+	if(index2>y.length){index2=1}
+	y[index2-1].style.display="block";
+	setTimeout(carousel2, 5000);
+	}
+	var li= 0;
+chlink();
+function chlink(){
+	var z;
+	var a= document.getElementsByClassName("p");
+	for(z=0; z<a.length; z++){
+	a[z].style.display="none";
+	}
+	li++;
+	if(li > a.length) { li =1 }
+	a[li-1].style.display="block";
+	setTimeout(chlink, 5000);
+	}
+	
+	$(document).ready(function()
+	{
+    $("#follow").click(function()
+	{
+        $("#bottom-follow").slideDown("slow");
+    });
+});
+
+	$(document).ready(function(){
+    $("#share").click(function(){
+        $("#bottom-share").slideDown("slow");
+    });
+});
+$(document).ready(function(){
+    $("#cross1").click(function(){
+        $("#bottom-share").slideUp("slow");
+    });
+});
+$(document).ready(function(){
+    $("#cross2").click(function(){
+        $("#bottom-follow").slideUp("slow");
+    });
+});
+</script>
+</body>
+</html>
